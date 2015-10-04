@@ -87,6 +87,7 @@ function getType(col) {
         case 'tinytext':
         case 'longtext':
         case 'character':
+        case 'character varying':
         case 'mediumtext':
             return { type: 'string' };
 
